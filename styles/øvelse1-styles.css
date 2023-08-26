@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.root {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.billeder img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: black;
+}
